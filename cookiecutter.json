@@ -1,0 +1,6 @@
+{
+  "service_name": "Name of microservice in kebab (lower) case",
+  "project_slug": "{{ cookiecutter.service_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_short_description": "Add short desciprtion of service",
+  "service_type": ["ReST", "Event Driven"]
+}
